@@ -1,0 +1,9 @@
+[2025-01-22 12:14:46,311] 22 - INFO - Entered the data ingestion component
+[2025-01-22 12:14:46,313] 25 - INFO - Read the dataset as a dataframe
+[2025-01-22 12:14:46,315] 29 - INFO - Train test split initiated
+[2025-01-22 12:14:46,318] 34 - INFO - Ingestion of data completed
+[2025-01-22 12:14:46,320] 67 - INFO - Read train and test data successfully
+[2025-01-22 12:14:46,320] 68 - INFO - Obtaining preprocessor object
+[2025-01-22 12:14:46,320] 48 - INFO - Categorical columns : ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-01-22 12:14:46,320] 49 - INFO - Numerical columns: ['writting_score', 'reading_score']
+[2025-01-22 12:14:46,320] 80 - INFO - Applying preprocessor object on train and test dataframe
