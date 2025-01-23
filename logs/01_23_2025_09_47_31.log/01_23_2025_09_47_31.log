@@ -1,0 +1,12 @@
+[2025-01-23 09:47:32,424] 24 - INFO - Entered the data ingestion component
+[2025-01-23 09:47:32,425] 27 - INFO - Read the dataset as a dataframe
+[2025-01-23 09:47:32,427] 31 - INFO - Train test split initiated
+[2025-01-23 09:47:32,430] 36 - INFO - Ingestion of data completed
+[2025-01-23 09:47:32,431] 67 - INFO - Read train and test data successfully
+[2025-01-23 09:47:32,431] 68 - INFO - Obtaining preprocessor object
+[2025-01-23 09:47:32,431] 48 - INFO - Categorical columns : ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-01-23 09:47:32,431] 49 - INFO - Numerical columns: ['writing_score', 'reading_score']
+[2025-01-23 09:47:32,431] 80 - INFO - Applying preprocessor object on train and test dataframe
+[2025-01-23 09:47:32,438] 88 - INFO - Saved preprocessor object
+[2025-01-23 09:47:32,440] 35 - INFO - Spliting traininig and testing input data
+[2025-01-23 09:47:56,687] 98 - INFO - Best model found on both training and testing dataset: Linear Regression
