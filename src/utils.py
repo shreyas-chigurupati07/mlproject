@@ -34,7 +34,7 @@ def evaluate_model(X_train, y_train, X_test, y_test, models, param):
 
             print(f"Evaluating model: {model}")
             print(f"Parameters: {para}")
-            
+
             gs = GridSearchCV(model, para, cv=3)
             gs.fit(X_train, y_train)
       
@@ -50,5 +50,16 @@ def evaluate_model(X_train, y_train, X_test, y_test, models, param):
             test_model_score = r2_score(y_test, y_test_pred)
             report[list(models.keys())[i]] = test_model_score
         return report
+    except Exception as e:
+        raise CustomException(e, sys)
+    
+
+def load_object(file_path):
+    '''
+    This function loads the object from the file path
+    '''
+    try:
+        with open(file_path, 'rb') as file:
+            return dill.load(file)
     except Exception as e:
         raise CustomException(e, sys)

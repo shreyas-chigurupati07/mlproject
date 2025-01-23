@@ -1,0 +1,18 @@
+[2025-01-23 11:29:49,294] 97 - WARNING -  * Debugger is active!
+[2025-01-23 11:29:49,305] 97 - INFO -  * Debugger PIN: 136-166-368
+[2025-01-23 11:30:03,515] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:03] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-01-23 11:30:03,533] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:03] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-01-23 11:30:03,534] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:03] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-01-23 11:30:03,542] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:03] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=IHhcJAKy1YwUNNMZ9MpS HTTP/1.1" 200 -
+[2025-01-23 11:30:03,566] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:03] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-01-23 11:30:07,426] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:07] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-01-23 11:30:07,436] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-01-23 11:30:07,437] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-01-23 11:30:07,447] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=IHhcJAKy1YwUNNMZ9MpS HTTP/1.1[0m" 304 -
+[2025-01-23 11:30:07,464] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:30:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-01-23 11:33:43,059] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:33:43] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-01-23 11:33:43,083] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:33:43] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-01-23 11:33:43,083] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:33:43] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-01-23 11:33:43,092] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:33:43] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=IHhcJAKy1YwUNNMZ9MpS HTTP/1.1[0m" 304 -
+[2025-01-23 11:33:43,108] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:33:43] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-01-23 11:36:18,755] 97 - INFO -  * Detected change in '/Users/shrey/Desktop/github/mlproject/src/pipeline/predict_pipeline.py', reloading

@@ -1,0 +1,15 @@
+[2025-01-23 11:36:28,342] 97 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000
+[2025-01-23 11:36:28,343] 97 - INFO - [33mPress CTRL+C to quit[0m
+[2025-01-23 11:36:28,343] 97 - INFO -  * Restarting with stat
+[2025-01-23 11:36:29,012] 97 - WARNING -  * Debugger is active!
+[2025-01-23 11:36:29,018] 97 - INFO -  * Debugger PIN: 136-166-368
+[2025-01-23 11:36:37,856] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:36:37] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-01-23 11:36:37,875] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:36:37] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-01-23 11:36:37,875] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:36:37] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-01-23 11:36:37,882] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:36:37] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=HAVMgBIn3pU1FcaWvw5n HTTP/1.1" 200 -
+[2025-01-23 11:36:37,896] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:36:37] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-01-23 11:37:06,649] 97 - INFO -  * Detected change in '/Users/shrey/Desktop/github/mlproject/src/pipeline/predict_pipeline.py', reloading
+[2025-01-23 11:37:06,729] 97 - INFO -  * Restarting with stat

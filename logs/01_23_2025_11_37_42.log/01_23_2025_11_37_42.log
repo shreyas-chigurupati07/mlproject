@@ -1,0 +1,27 @@
+[2025-01-23 11:37:42,175] 97 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000
+[2025-01-23 11:37:42,175] 97 - INFO - [33mPress CTRL+C to quit[0m
+[2025-01-23 11:37:42,176] 97 - INFO -  * Restarting with stat
+[2025-01-23 11:37:42,793] 97 - WARNING -  * Debugger is active!
+[2025-01-23 11:37:42,798] 97 - INFO -  * Debugger PIN: 136-166-368
+[2025-01-23 11:37:48,267] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:37:48] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-01-23 11:37:48,284] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:37:48] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-01-23 11:37:48,284] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:37:48] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-01-23 11:37:48,292] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:37:48] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=gKGNBgMa5yLyVSwiVvm6 HTTP/1.1" 200 -
+[2025-01-23 11:37:48,303] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:37:48] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-01-23 11:37:52,229] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:37:52] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=gKGNBgMa5yLyVSwiVvm6 HTTP/1.1[0m" 304 -
+[2025-01-23 11:38:27,198] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:38:27] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=gKGNBgMa5yLyVSwiVvm6 HTTP/1.1[0m" 304 -
+[2025-01-23 11:38:28,811] 97 - INFO -  * To enable the debugger you need to enter the security pin:
+[2025-01-23 11:38:28,812] 97 - INFO -  * Debugger pin code: 136-166-368
+[2025-01-23 11:38:28,812] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:38:28] "GET /predictdata?__debugger__=yes&cmd=printpin&s=gKGNBgMa5yLyVSwiVvm6 HTTP/1.1" 200 -
+[2025-01-23 11:38:33,341] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:38:33] "GET /predictdata?__debugger__=yes&cmd=pinauth&pin=&s=gKGNBgMa5yLyVSwiVvm6 HTTP/1.1" 200 -
+[2025-01-23 11:38:36,958] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:38:36] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-01-23 11:38:36,979] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:38:36] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-01-23 11:38:36,979] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:38:36] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-01-23 11:38:36,988] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:38:36] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=gKGNBgMa5yLyVSwiVvm6 HTTP/1.1[0m" 304 -
+[2025-01-23 11:38:37,002] 97 - INFO - 127.0.0.1 - - [23/Jan/2025 11:38:37] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-01-23 11:45:01,151] 97 - INFO -  * Detected change in '/Users/shrey/Desktop/github/mlproject/app.py', reloading
+[2025-01-23 11:45:01,256] 97 - INFO -  * Restarting with stat
+[2025-01-23 11:45:32,685] 97 - INFO -  * Restarting with stat
